@@ -1,4 +1,4 @@
-package br.com.screenmatch;
+package br.com.screenmatch.principal;
 
 public class Filme {
 
