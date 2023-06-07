@@ -1,0 +1,110 @@
+Index: src/br/com/screenmatch/principal/Filme.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package br.com.screenmatch.principal;\n\nimport java.util.Calendar;\n\npublic class Filme {\n    Calendar hoje = Calendar.getInstance();\n\n    String nome;\n    int anoDoLancamento;\n    double somaDasAvaliacoes;\n    int totalAvaliacoes;\n    int duracaoEmMinutos;\n    int idade;\n    boolean avaliacao;\n\n\n    void exibeFichaTecnica() {\n        System.out.println(\"Nome do filme: \" + nome);\n        System.out.println(\"Ano de lancamento do filme: \" + anoDoLancamento);\n        System.out.println(\"Duracao do filme: \" + duracaoEmMinutos + \" minutos\");\n    }\n\n    void avalia(double nota) {\n        somaDasAvaliacoes += nota;\n        totalAvaliacoes++;\n    }\n\n    double pegaMedia() {\n        return somaDasAvaliacoes / totalAvaliacoes;\n    }\n\n    int calculaIdade() {\n        return idade = (hoje.get(Calendar.YEAR) - (anoDoLancamento));\n    }\n\n    String descobrePlano() {\n        if (idade > 5) {\n            return \"Nao incluso\";\n        }\n        return \"Incluso\";\n    }\n}\n// Se a idade do filme for maior que 5 anos, ele nao está incluso no plano\n// Caso contrário está incluso.\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/screenmatch/principal/Filme.java b/src/br/com/screenmatch/principal/Filme.java
+--- a/src/br/com/screenmatch/principal/Filme.java	(revision 6d1bf679ebf2d3e3b0e143a33e93e468f62d9132)
++++ b/src/br/com/screenmatch/principal/Filme.java	(date 1686162308127)
+@@ -30,16 +30,15 @@
+     }
+ 
+     int calculaIdade() {
+-        return idade = (hoje.get(Calendar.YEAR) - (anoDoLancamento));
++        return (hoje.get(Calendar.YEAR) - (anoDoLancamento));
+     }
+ 
+     String descobrePlano() {
+-        if (idade > 5) {
+-            return "Nao incluso";
+-        }
+-        return "Incluso";
++        if (calculaIdade() < 5) {
++            return "Incluso";
++        }
++        return "Nao Incluso";
+     }
+ }
+-// Se a idade do filme for maior que 5 anos, ele nao está incluso no plano
+-// Caso contrário está incluso.
++
+ 
+Index: src/br/com/screenmatch/principal/Principal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package br.com.screenmatch.principal;\n\nimport java.text.DecimalFormat;\nimport java.time.LocalDate;\nimport java.time.format.DateTimeFormatter;\nimport java.util.Calendar;\n\npublic class Principal {\n\n\n    public static void main(String[] args) {\n        DecimalFormat decimalFormat = new DecimalFormat(\"#0.00\");\n        DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern(\"dd/MM/YYYY\");\n        Calendar hoje = Calendar.getInstance();\n        int idd;\n\n        Filme filme = new Filme();\n\n        filme.nome = \"Top gun Maverick\";\n        filme.anoDoLancamento = 1970;\n        filme.duracaoEmMinutos = 180;\n\n        // filme.exibeFichaTecnica();\n        filme.avalia(9);\n        filme.avalia(7);\n        filme.avalia(9);\n/*\n        System.out.println(\"A soma das avaliacoes foi: \" +filme.somaDasAvaliacoes);\n        System.out.println(\"O total de avaliacoes foi: \" +filme.totalAvaliacoes);\n        System.out.println(\"O total de avaliacoes foi: \" +decimalFormat.format(filme.pegaMedia()));*/\n         System.out.println(\"O Filme está incluso no plano? \" +filme.descobrePlano());\n        //  System.out.println(\"A idade do filme é: \" + filme.calculaIdade() + \" anos.\");\n        System.out.println(idd = hoje.get(Calendar.YEAR) - (filme.anoDoLancamento));\n        if (idd > 5) {\n            System.out.println(\"Nao incluso\");\n        }\n        System.out.println(\"Incluso\");\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/screenmatch/principal/Principal.java b/src/br/com/screenmatch/principal/Principal.java
+--- a/src/br/com/screenmatch/principal/Principal.java	(revision 6d1bf679ebf2d3e3b0e143a33e93e468f62d9132)
++++ b/src/br/com/screenmatch/principal/Principal.java	(date 1686162376242)
+@@ -17,23 +17,18 @@
+         Filme filme = new Filme();
+ 
+         filme.nome = "Top gun Maverick";
+-        filme.anoDoLancamento = 1970;
++        filme.anoDoLancamento = 2020;
+         filme.duracaoEmMinutos = 180;
+ 
+-        // filme.exibeFichaTecnica();
++        filme.exibeFichaTecnica();
+         filme.avalia(9);
+         filme.avalia(7);
+         filme.avalia(9);
+-/*
+-        System.out.println("A soma das avaliacoes foi: " +filme.somaDasAvaliacoes);
+-        System.out.println("O total de avaliacoes foi: " +filme.totalAvaliacoes);
+-        System.out.println("O total de avaliacoes foi: " +decimalFormat.format(filme.pegaMedia()));*/
+-         System.out.println("O Filme está incluso no plano? " +filme.descobrePlano());
+-        //  System.out.println("A idade do filme é: " + filme.calculaIdade() + " anos.");
+-        System.out.println(idd = hoje.get(Calendar.YEAR) - (filme.anoDoLancamento));
+-        if (idd > 5) {
+-            System.out.println("Nao incluso");
+-        }
+-        System.out.println("Incluso");
++
++        System.out.println("A soma das avaliacoes foi: " + filme.somaDasAvaliacoes);
++        System.out.println("O total de avaliacoes foi: " + filme.totalAvaliacoes);
++        System.out.println("O total de avaliacoes foi: " + decimalFormat.format(filme.pegaMedia()));
++        System.out.println("O Filme está incluso no plano? " + filme.descobrePlano());
++        System.out.println("A idade do filme é: " + filme.calculaIdade() + " anos.");
+     }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f8f17cce-07e6-4355-a4a7-ffbad3a19831\" name=\"Changes\" comment=\"Criando a regra do negócio.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Qq8uVexciVdAJZnL1GERguJVH9\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"SONARLINT_PRECOMMIT_ANALYSIS\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RunManager\">\n    <configuration name=\"Principal\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"br.com.screenmatch.principal.Principal\" />\n      <module name=\"screenmatch\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"br.com.screenmatch.principal.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Principal\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"f8f17cce-07e6-4355-a4a7-ffbad3a19831\" name=\"Changes\" comment=\"\" />\n      <created>1686069973263</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1686069973263</updated>\n      <workItem from=\"1686069974682\" duration=\"20801000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"init\">\n      <created>1686071165876</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686071165876</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Criando a regra do negócio.\">\n      <created>1686152180757</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686152180757</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"init\" />\n    <MESSAGE value=\"Criando a regra do negócio.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Criando a regra do negócio.\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6d1bf679ebf2d3e3b0e143a33e93e468f62d9132)
++++ b/.idea/workspace.xml	(date 1686165950912)
+@@ -78,7 +78,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1686069973263</updated>
+-      <workItem from="1686069974682" duration="20801000" />
++      <workItem from="1686069974682" duration="23392000" />
+     </task>
+     <task id="LOCAL-00001" summary="init">
+       <created>1686071165876</created>
+@@ -94,7 +94,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1686152180757</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Criando a regra do negócio.">
++      <created>1686159934823</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1686159934823</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
