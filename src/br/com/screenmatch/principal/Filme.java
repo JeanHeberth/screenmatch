@@ -1,28 +1,18 @@
 package br.com.screenmatch.principal;
 
-import java.time.LocalDate;
 import java.util.Calendar;
 
 public class Filme {
     Calendar hoje = Calendar.getInstance();
-    int hoje2 = LocalDate.now().getYear();
-    LocalDate hoje3 = LocalDate.now();
 
     String nome;
     int anoDoLancamento;
     double somaDasAvaliacoes;
     int totalAvaliacoes;
     int duracaoEmMinutos;
+    int idade;
+    boolean avaliacao;
 
-    // boolean lancamento;
-    // idade= idd;
-
-
-    private int idade;
-
-    public int getIdade() {
-        return idade;
-    }
 
     void exibeFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
@@ -39,33 +29,17 @@ public class Filme {
         return somaDasAvaliacoes / totalAvaliacoes;
     }
 
-    void calculaIdade() {
-        //this.idd = (hoje.get(Calendar.YEAR) - (anoDoLancamento));
-        this.idade = hoje3.getYear() - anoDoLancamento;
+    int calculaIdade() {
+        return idade = (hoje.get(Calendar.YEAR) - (anoDoLancamento));
     }
 
     String descobrePlano() {
-        this.calculaIdade();
-
-      //  return idade <= 5?"Incluso":"Não Incluso";
-
-        if (idade <= 5) {
-            return "Incluso";
+        if (idade > 5) {
+            return "Nao incluso";
         }
-        return "Nao incluso";
+        return "Incluso";
     }
 }
-
-// Plano user
-
-//Plus ->
-/*
-Lista de filmes
- */
-
-
-// basico
-/*
-Retira da lista
- */
+// Se a idade do filme for maior que 5 anos, ele nao está incluso no plano
+// Caso contrário está incluso.
 
