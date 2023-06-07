@@ -1,0 +1,12 @@
+
+H
+java:S1481
+"2Remove this unused "decimalFormat" local variable.(ÄÄÅ†
+^
+java:S3986"HMake sure that week Year "YYYY" is expected here instead of Year "yyyy".(ú‚“
+E
+java:S1481"/Remove this unused "dateFormat" local variable.(ú‚“
+V	java:S125"<This block of commented-out lines of code should be removed.(ãÕûªıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ò†íúÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(€Ù S
+N	java:S106"9Replace this use of System.out or System.err by a logger.( ôÔÈ
