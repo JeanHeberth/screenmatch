@@ -11,6 +11,7 @@ public class Filme {
     int totalAvaliacoes;
     int duracaoEmMinutos;
     int idade;
+    boolean avaliacao;
 
 
     void exibeFichaTecnica() {
