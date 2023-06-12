@@ -72,13 +72,14 @@ public class Filme2 {
         this.lancamento = lancamento;
     }
 
-   public void avaliacao(double nota){
+    public void avaliacao(double nota) {
         somaDasAvaliacoes += nota;
         totalAvaliacoes++;
 
     }
 
-    public double pegaMedia(){
-       return somaDasAvaliacoes / totalAvaliacoes;
+    public double pegaMedia() {
+        return somaDasAvaliacoes / totalAvaliacoes;
     }
+
 }
