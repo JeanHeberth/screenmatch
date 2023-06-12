@@ -40,20 +40,18 @@ public class Filme {
     }
 
     void calculaIdade() {
-        //this.idd = (hoje.get(Calendar.YEAR) - (anoDoLancamento));
         this.idade = hoje3.getYear() - anoDoLancamento;
     }
 
     String descobrePlano() {
         this.calculaIdade();
+        return idade <= 5?"Incluso":"Não Incluso";
 
-      //  return idade <= 5?"Incluso":"Não Incluso";
-        //dfasfddfasfd
-
-        if (idade <= 5) {
+      /*  if (idade <= 5) {
             return "Incluso";
         }
         return "Nao incluso";
+    */
     }
 }
 

@@ -17,7 +17,7 @@ public class Principal {
         Filme filme = new Filme();
 
         filme.nome = "Top gun Maverick";
-        filme.anoDoLancamento = 1970;
+        filme.anoDoLancamento = 2022;
         filme.duracaoEmMinutos = 180;
 
         // filme.exibeFichaTecnica();
