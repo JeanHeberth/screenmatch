@@ -18,6 +18,9 @@ public class Filme3 {
     }
 
     private boolean eLancamento(int idade) {
+        if (anoDoLancamento > LocalDate.now().getYear()) {
+            throw new RuntimeException("Ano inserido nao pode ser maior que o ano atual.");
+        }
         return idade <= 5 ? true : false;
     }
 
@@ -26,12 +29,12 @@ public class Filme3 {
     public String toString() {
         return "Filme3{" +
                 "nome='" + nome + '\'' +
-                ", anoDoLancamento=" + anoDoLancamento +
-                ", duracaoEmMinutos=" + duracaoEmMinutos +
-                ", somaDasAvaliacoes=" + somaDasAvaliacoes +
-                ", totalAvaliacoes=" + totalAvaliacoes +
-                ", idade=" + idade +
-                ", lancamento=" + lancamento +
+                ", anoDoLancamento= " + anoDoLancamento +
+                ", duracaoEmMinutos= " + duracaoEmMinutos +
+                ", somaDasAvaliacoes= " + somaDasAvaliacoes +
+                ", totalAvaliacoes= " + totalAvaliacoes +
+                ", idade= " + idade +
+                ", lancamento= " + lancamento +
                 '}';
     }
 
