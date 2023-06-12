@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3222bfa0-58af-4350-9b15-ed6d26e5f1d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java" afterDir="false" />
+    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2023_13_49_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc89836f5af1416f307300d09e316c53d70656fb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
