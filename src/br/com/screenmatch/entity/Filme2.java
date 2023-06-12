@@ -1,11 +1,8 @@
 package br.com.screenmatch.entity;
 
 import java.time.LocalDate;
-import java.util.Calendar;
 
 public class Filme2 {
-    Calendar hoje = Calendar.getInstance();
-    int hoje2 = LocalDate.now().getYear();
     LocalDate anoAtual = LocalDate.now();
 
     private String nome = "Top gun Maverick";
@@ -54,15 +51,16 @@ public class Filme2 {
         return somaDasAvaliacoes / totalAvaliacoes;
     }
 
-    public int pegaIdade(){
-        idade = anoAtual.getYear() - anoDoLancamento;
-        return idade;
+    public int pegaIdade() {
+       return this.idade = anoAtual.getYear() - anoDoLancamento;
     }
 
-    public String lancamento() {
-    this.getIdade();
-    return  idade <= 5?"Incluso":"Nao incluso";
+    public String informaLancamento() {
+        return idade <= 5 ? "Incluso" : "Nao incluso";
+    }
 
+    public int totalAvalicao() {
+        return totalAvaliacoes++;
     }
 
 }
