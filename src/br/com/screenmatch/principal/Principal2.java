@@ -28,5 +28,7 @@ public class Principal2 {
 
         System.out.println("Soma das avaliacoes do filme " +decimalFormat.format(filme2.getSomaDasAvaliacoes()));
         System.out.println("Média das avaliacoes do filme "+decimalFormat.format(filme2.pegaMedia()));
+        System.out.println(filme2.pegaIdade());
+        System.out.println(filme2.lancamento());
     }
 }
