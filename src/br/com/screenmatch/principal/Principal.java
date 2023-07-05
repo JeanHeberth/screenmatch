@@ -1,7 +1,8 @@
 package br.com.screenmatch.principal;
 
+import br.com.screenmatch.entity.Filme;
+
 import java.text.DecimalFormat;
-import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 
@@ -20,20 +21,16 @@ public class Principal {
         filme.anoDoLancamento = 2022;
         filme.duracaoEmMinutos = 180;
 
+
         // filme.exibeFichaTecnica();
         filme.avalia(9);
         filme.avalia(7);
         filme.avalia(9);
-/*
-        System.out.println("A soma das avaliacoes foi: " +filme.somaDasAvaliacoes);
-        System.out.println("O total de avaliacoes foi: " +filme.totalAvaliacoes);
-        System.out.println("O total de avaliacoes foi: " +decimalFormat.format(filme.pegaMedia()));*/
-         System.out.println("O Filme está incluso no plano? " +filme.descobrePlano());
-        //  System.out.println("A idade do filme é: " + filme.calculaIdade() + " anos.");
-        System.out.println(idd = hoje.get(Calendar.YEAR) - (filme.anoDoLancamento));
-        if (idd > 5) {
-            System.out.println("Nao incluso");
-        }
-        System.out.println("Incluso");
+
+        System.out.println("O total de avaliacoes foi: " + decimalFormat.format(filme.getTotalAvaliacoes()));
+        System.out.println("O total de avaliacoes foi: " + decimalFormat.format(filme.pegaMedia()));
+        System.out.println(decimalFormat.format(filme.pegaMedia()));
+//        filme.somaDasAvaliacoes = 10;
+//        filme.totalAvaliacoes = 1;
     }
 }

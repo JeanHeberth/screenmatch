@@ -3,15 +3,15 @@ package br.com.screenmatch.principal;
 import java.time.LocalDate;
 import java.util.Calendar;
 
-public class Filme {
+public class Filme1 {
     Calendar hoje = Calendar.getInstance();
     int hoje2 = LocalDate.now().getYear();
     LocalDate hoje3 = LocalDate.now();
 
     String nome;
     int anoDoLancamento;
-    double somaDasAvaliacoes;
-    int totalAvaliacoes;
+    private double somaDasAvaliacoes;
+    private int totalAvaliacoes;
     int duracaoEmMinutos;
 
     // boolean lancamento;
@@ -45,7 +45,7 @@ public class Filme {
 
     String descobrePlano() {
         this.calculaIdade();
-        return idade <= 5?"Incluso":"Não Incluso";
+        return idade <= 5 ? "Incluso" : "Não Incluso";
 
       /*  if (idade <= 5) {
             return "Incluso";
@@ -56,16 +56,4 @@ public class Filme {
 
 }
 
-// Plano user
-
-//Plus ->
-/*
-Lista de filmes
- */
-
-
-// basico
-/*
-Retira da lista
- */
 
