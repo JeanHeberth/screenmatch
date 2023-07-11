@@ -22,7 +22,7 @@ public class PrincipalTeste {
         segundos = Duration.ofSeconds(65).toSecondsPart();
         minutos = Duration.ofSeconds(segundos).toMinutes();
 //        segundos = minutos / 60;
-        System.out.println(segundos+ " : " +minutos);
+        System.out.println(segundos + " : " + minutos);
 
 
         var minutosTotal = Duration.ofMinutes(5385);
@@ -30,9 +30,13 @@ public class PrincipalTeste {
         var Minutos = minutosTotal.toMinutesPart();
         var Segundos = minutosTotal.toSecondsPart();
 
-        System.out.println(Horas+  " : " +Minutos+ " : " +Segundos);
+        System.out.println(Horas + " : " + Minutos + " : " + Segundos);
 
 //        Estudar Localtime como formatar os campos.
-
+      /*  var segundos = Duration.ofSeconds(7205);
+        System.out.println(segundos);
+        var teste = DurationFormatUtils.formatDuration(segundos.toMillis(), "HH : mm : ss");
+        System.out.println(teste);
+*/
     }
 }
