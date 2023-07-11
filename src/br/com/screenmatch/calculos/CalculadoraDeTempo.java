@@ -1,10 +1,8 @@
 package br.com.screenmatch.calculos;
 
-import br.com.screenmatch.modelos.Filme;
-import br.com.screenmatch.modelos.Serie;
 import br.com.screenmatch.modelos.Titulo;
 
-import java.time.Duration;
+import java.time.format.DateTimeFormatter;
 
 public class CalculadoraDeTempo {
 

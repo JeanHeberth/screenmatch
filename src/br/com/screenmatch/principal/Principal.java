@@ -6,6 +6,7 @@ import br.com.screenmatch.modelos.Serie;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalTime;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -69,7 +70,9 @@ public class Principal {
         calculadoraDeTempo.inclui(outroFilme);
         calculadoraDeTempo.conversaoMinutosParaHora();
         System.out.println("############### " +calculadoraDeTempo.getTempoTotal());
-        System.out.println("############### " +decimalFormat.format(calculadoraDeTempo.getTempoTotalTest()));
+        System.out.println("############### " +calculadoraDeTempo.getTempoTotalTest());
+        System.out.println(String.format("############### " + hora, calculadoraDeTempo.getTempoTotalTest()));
+        System.out.println(calculadoraDeTempo.getTempoTotalTest());
 
 
     }
