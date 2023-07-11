@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Criando a regra do negócio.">
-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_23_19_49_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_06_23_19_49__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_06_23_17_06_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_06_23_17_06__Changes_.xml" beforeDir="false" />
+    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Organizando a estrutura do projeto.">
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Filme1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +48,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="criandoFilme2" />
-                    <option name="lastUsedInstant" value="1686588048" />
+                    <option name="branchName" value="calculadoraDeTempoDeSerie" />
+                    <option name="lastUsedInstant" value="1689001003" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -77,11 +81,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "calculadoraDeTempoDeSerie",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -92,12 +97,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Principal">
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Principal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal.Principal" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.screenmatch.entity.*" />
+          <option name="PATTERN" value="br.com.screenmatch.entity1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal.Principal2" />
+      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal1.Principal2" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.screenmatch.entity.*" />
+          <option name="PATTERN" value="br.com.screenmatch.entity1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +124,11 @@
       </method>
     </configuration>
     <configuration name="Principal3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal.Principal3" />
+      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal1.Principal3" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.screenmatch.entity.*" />
+          <option name="PATTERN" value="br.com.screenmatch.entity1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,7 +138,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Principal3" />
         <item itemvalue="Application.Principal2" />
       </list>
@@ -151,7 +155,9 @@
       <workItem from="1686521465013" duration="411000" />
       <workItem from="1686521935045" duration="627000" />
       <workItem from="1686522591663" duration="5261000" />
-      <workItem from="1688519598138" duration="2228000" />
+      <workItem from="1688519598138" duration="3251000" />
+      <workItem from="1688567293477" duration="6103000" />
+      <workItem from="1688675205369" duration="9248000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1686071165876</created>
@@ -188,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686588680691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Organizando a estrutura do projeto.">
+      <created>1688521965654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688521965654</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,9 +210,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Criando a regra do negócio." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando a regra do negócio." />
+    <MESSAGE value="Organizando a estrutura do projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando a estrutura do projeto." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="br.com.screenmatch.principal.Filme" memberName="idade" />

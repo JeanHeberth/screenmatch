@@ -1,4 +1,4 @@
-package br.com.screenmatch.entity;
+package br.com.screenmatch.entity1;
 
 import java.time.LocalDate;
 
