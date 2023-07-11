@@ -1,6 +1,6 @@
-package br.com.screenmatch.principal;
+package br.com.screenmatch.principal1;
 
-import br.com.screenmatch.entity.Filme3;
+import br.com.screenmatch.entity1.Filme3;
 
 import java.text.DecimalFormat;
 import java.time.format.DateTimeFormatter;
