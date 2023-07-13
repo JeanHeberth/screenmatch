@@ -1,6 +1,7 @@
 package br.com.screenmatch.principal;
 
 import br.com.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.screenmatch.calculos.FiltroRecomendacao;
 import br.com.screenmatch.modelos.Filme;
 import br.com.screenmatch.modelos.Serie;
 
@@ -35,9 +36,9 @@ public class Principal {
 
 
         // filme.exibeFichaTecnica();
-        filme.avalia(9);
-        filme.avalia(7);
-        filme.avalia(9);
+        filme.avalia(0.8);
+        filme.avalia(0.7);
+        filme.avalia(4);
         System.out.println("######### Ficha técnica do filme ############");
         System.out.println("O total de avaliacoes foi: " + decimalFormat.format(filme.getTotalAvaliacoes()));
         System.out.println("A média das avaliacoes foi: " + decimalFormat.format(filme.pegaMedia()));
@@ -53,9 +54,9 @@ public class Principal {
         lost.setIncluidoNoPlano(true);
         lost.setMinutosPorEpisodio(50);
 
-        lost.avalia(8);
-        lost.avalia(7);
-        lost.avalia(5);
+        lost.avalia(2);
+        lost.avalia(10);
+        lost.avalia(9);
 
         System.out.println("######### Ficha técnica da lost ############");
         System.out.println("#############################################");
@@ -73,6 +74,17 @@ public class Principal {
         System.out.println("############### " +calculadoraDeTempo.getTempoTotalTest());
         System.out.println(String.format("############### " + hora, calculadoraDeTempo.getTempoTotalTest()));
         System.out.println(calculadoraDeTempo.getTempoTotalTest());
+
+        FiltroRecomendacao filtroRecomendacao = new FiltroRecomendacao();
+        System.out.println("##### Filme ###################");
+        System.out.println("A média das avaliacoes foi: " + decimalFormat.format(filme.pegaMedia()));
+        filtroRecomendacao.filtra(filme);
+        System.out.println("#################################");
+
+        System.out.println("##### Serei ###################");
+        System.out.println("A média das avaliacoes foi: " + decimalFormat.format(lost.pegaMedia()));
+        filtroRecomendacao.filtra(lost);
+        System.out.println("#################################");
 
 
     }

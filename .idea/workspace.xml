@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Organizando a estrutura do projeto." />
+    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Organizando a estrutura do projeto.">
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/calculos/CalculadoraDeTempo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/entity1/Filme2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/entity1/Filme3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/modelos/Filme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/modelos/Serie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/modelos/Titulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/principal/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/principal/PrincipalTeste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/principal1/Filme1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/principal1/Principal2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/screenmatch/principal1/Principal3.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -20,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="incluindo_comportamento" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,8 +57,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="calculadoraDeTempoDeSerie" />
-                    <option name="lastUsedInstant" value="1689001003" />
+                    <option name="branchName" value="classificando_episodio" />
+                    <option name="lastUsedInstant" value="1689269247" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -68,7 +90,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "classificando__episodio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -201,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689267529680</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Organizando a estrutura do projeto.">
+      <option name="closed" value="true" />
+      <created>1689267756539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689267756539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

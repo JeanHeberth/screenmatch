@@ -1,6 +1,8 @@
 package br.com.screenmatch.modelos;
 
-public class Serie extends Titulo{
+import br.com.screenmatch.calculos.Classificavel;
+
+public class Serie extends Titulo implements Classificavel {
 
     private int temporadas;
     private int episodioPorTemporada;
@@ -42,5 +44,10 @@ public class Serie extends Titulo{
     @Override
     public int getDuracaoEmMinutos() {
         return temporadas * episodioPorTemporada * minutosPorEpisodio;
+    }
+
+    @Override
+    public int getClassificacao() {
+        return (int) pegaMedia() / 2;
     }
 }
