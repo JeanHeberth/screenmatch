@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Criando a regra do negócio.">
-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/PrincipalTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Organizando a estrutura do projeto.">
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Filme1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -36,12 +48,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="criandoFilme2" />
-                    <option name="lastUsedInstant" value="1686575671" />
+                    <option name="branchName" value="calculadoraDeTempoDeSerie" />
+                    <option name="lastUsedInstant" value="1689001003" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1686575670" />
+                    <option name="lastUsedInstant" value="1686588020" />
                   </RecentBranch>
                 </list>
               </option>
@@ -68,7 +80,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "calculadoraDeTempoDeSerie",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,13 +96,13 @@
       <recent name="br.com.screenmatch.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrincipalTeste">
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Principal">
+    <configuration name="Principal" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal.Principal" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.screenmatch.principal.*" />
+          <option name="PATTERN" value="br.com.screenmatch.entity1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrincipalTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal.PrincipalTeste" />
+    <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal1.Principal2" />
       <module name="screenmatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.screenmatch.principal.*" />
+          <option name="PATTERN" value="br.com.screenmatch.entity1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,21 +123,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.PrincipalTeste" />
-      <item itemvalue="Application.Principal" />
-    </list>
+    <configuration name="Principal3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal1.Principal3" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.screenmatch.entity1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrincipalTeste" />
-        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.Principal3" />
+        <item itemvalue="Application.Principal2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3222bfa0-58af-4350-9b15-ed6d26e5f1d8" name="Changes" comment="" />
+      <changelist id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Criando a regra do negócio." />
       <created>1686069973263</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -127,6 +155,9 @@
       <workItem from="1686521465013" duration="411000" />
       <workItem from="1686521935045" duration="627000" />
       <workItem from="1686522591663" duration="5261000" />
+      <workItem from="1688519598138" duration="3251000" />
+      <workItem from="1688567293477" duration="6103000" />
+      <workItem from="1688675205369" duration="9248000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1686071165876</created>
@@ -163,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686588680691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Organizando a estrutura do projeto.">
+      <created>1688521965654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688521965654</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,9 +210,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Criando a regra do negócio." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando a regra do negócio." />
+    <MESSAGE value="Organizando a estrutura do projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando a estrutura do projeto." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="br.com.screenmatch.principal.Filme" memberName="idade" />
