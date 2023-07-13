@@ -1,0 +1,92 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"127451e1-050a-46e3-979a-593ef63021b7\" name=\"Changes\" comment=\"Organizando a estrutura do projeto.\">\n      <change afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/modelos/Serie.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/modelos/Titulo.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme.java\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme2.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme3.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme3.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme1.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal1/Filme1.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal2.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal3.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal3.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitToolBoxStore\">\n    <option name=\"projectConfigVersion\" value=\"5\" />\n    <option name=\"recentBranches\">\n      <RecentBranches>\n        <option name=\"branchesForRepo\">\n          <list>\n            <RecentBranchesForRepo>\n              <option name=\"branches\">\n                <list>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"calculadoraDeTempoDeSerie\" />\n                    <option name=\"lastUsedInstant\" value=\"1689001003\" />\n                  </RecentBranch>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"master\" />\n                    <option name=\"lastUsedInstant\" value=\"1686588020\" />\n                  </RecentBranch>\n                </list>\n              </option>\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\n            </RecentBranchesForRepo>\n          </list>\n        </option>\n      </RecentBranches>\n    </option>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Qq8uVexciVdAJZnL1GERguJVH9\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SONARLINT_PRECOMMIT_ANALYSIS\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"calculadoraDeTempoDeSerie\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"br.com.screenmatch.principal\" />\n      <recent name=\"br.com.screenmatch.entity\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Principal\">\n    <configuration name=\"Principal\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"br.com.screenmatch.principal.Principal\" />\n      <module name=\"screenmatch\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"br.com.screenmatch.entity1.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Principal2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"br.com.screenmatch.principal1.Principal2\" />\n      <module name=\"screenmatch\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"br.com.screenmatch.entity1.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Principal3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"br.com.screenmatch.principal1.Principal3\" />\n      <module name=\"screenmatch\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"br.com.screenmatch.entity1.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Principal3\" />\n        <item itemvalue=\"Application.Principal2\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"127451e1-050a-46e3-979a-593ef63021b7\" name=\"Changes\" comment=\"Criando a regra do negócio.\" />\n      <created>1686069973263</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1686069973263</updated>\n      <workItem from=\"1686069974682\" duration=\"24050000\" />\n      <workItem from=\"1686521465013\" duration=\"411000\" />\n      <workItem from=\"1686521935045\" duration=\"627000\" />\n      <workItem from=\"1686522591663\" duration=\"5261000\" />\n      <workItem from=\"1688519598138\" duration=\"3251000\" />\n      <workItem from=\"1688567293477\" duration=\"6103000\" />\n      <workItem from=\"1688675205369\" duration=\"9248000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"init\">\n      <created>1686071165876</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686071165876</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Criando a regra do negócio.\">\n      <created>1686152180757</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686152180757</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Criando a regra do negócio.\">\n      <created>1686159934823</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686159934823</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Criando a regra do negócio.\">\n      <created>1686575731882</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686575731882</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Criando a regra do negócio.\">\n      <created>1686588680690</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686588680691</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Organizando a estrutura do projeto.\">\n      <created>1688521965654</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1688521965654</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"init\" />\n    <MESSAGE value=\"Criando a regra do negócio.\" />\n    <MESSAGE value=\"Organizando a estrutura do projeto.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Organizando a estrutura do projeto.\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java</url>\n          <line>23</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n    <pin-to-top-manager>\n      <pinned-members>\n        <PinnedItemInfo parentTag=\"br.com.screenmatch.principal.Filme\" memberName=\"idade\" />\n      </pinned-members>\n    </pin-to-top-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 83a47e42c0ff741b4f3813e60627e334b0a44191)
++++ b/.idea/workspace.xml	(date 1689095995543)
+@@ -5,18 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Organizando a estrutura do projeto.">
+-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Filme.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Serie.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/modelos/Titulo.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/calculos/Classificavel.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme2.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity1/Filme3.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Filme1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Filme1.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal2.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal1/Principal3.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -33,7 +23,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="incluindo_comportamento" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -48,12 +38,16 @@
+               <option name="branches">
+                 <list>
+                   <RecentBranch>
+-                    <option name="branchName" value="calculadoraDeTempoDeSerie" />
+-                    <option name="lastUsedInstant" value="1689001003" />
++                    <option name="branchName" value="master" />
++                    <option name="lastUsedInstant" value="1689095982" />
+                   </RecentBranch>
+                   <RecentBranch>
+-                    <option name="branchName" value="master" />
+-                    <option name="lastUsedInstant" value="1686588020" />
++                    <option name="branchName" value="incluindo_comportamento" />
++                    <option name="lastUsedInstant" value="1689079600" />
++                  </RecentBranch>
++                  <RecentBranch>
++                    <option name="branchName" value="calculadoraDeTempoDeSerie" />
++                    <option name="lastUsedInstant" value="1689001003" />
+                   </RecentBranch>
+                 </list>
+               </option>
+@@ -81,7 +75,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "calculadoraDeTempoDeSerie",
++    "git-widget-placeholder": "master",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -138,6 +132,8 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Principal3" />
++        <item itemvalue="Application.Principal2" />
+         <item itemvalue="Application.Principal3" />
+         <item itemvalue="Application.Principal2" />
+       </list>
+Index: src/br/com/screenmatch/calculos/Classificavel.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/screenmatch/calculos/Classificavel.java b/src/br/com/screenmatch/calculos/Classificavel.java
+new file mode 100644
+--- /dev/null	(date 1689080659296)
++++ b/src/br/com/screenmatch/calculos/Classificavel.java	(date 1689080659296)
+@@ -0,0 +1,4 @@
++package br.com.screenmatch.calculos;
++
++public class Classificavel {
++}

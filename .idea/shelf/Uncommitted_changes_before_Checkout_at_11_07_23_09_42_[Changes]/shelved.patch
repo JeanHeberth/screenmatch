@@ -1,0 +1,60 @@
+Index: src/br/com/screenmatch/principal/Principal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package br.com.screenmatch.principal;\n\nimport br.com.screenmatch.calculos.CalculadoraDeTempo;\nimport br.com.screenmatch.modelos.Filme;\nimport br.com.screenmatch.modelos.Serie;\n\nimport java.text.DecimalFormat;\nimport java.text.SimpleDateFormat;\nimport java.util.Date;\nimport java.util.concurrent.TimeUnit;\n\npublic class Principal {\n\n\n    public static void main(String[] args) {\n        DecimalFormat decimalFormat = new DecimalFormat(\"#0.00\");\n        Date date = new Date();\n        String hora = new SimpleDateFormat(\"HH.mm.ss\").format(date);\n\n        Filme filme = new Filme();\n        Filme outroFilme = new Filme();\n        Serie lost = new Serie();\n\n\n        outroFilme.setNome(\"Top gun Maverick\");\n        outroFilme.setAnoDoLancamento(2022);\n        outroFilme.setDuracaoEmMinutos(200);\n        outroFilme.setIncluidoNoPlano(false);\n\n        filme.setNome(\"Top gun Maverick\");\n        filme.setAnoDoLancamento(2022);\n        filme.setDuracaoEmMinutos(180);\n        filme.setIncluidoNoPlano(false);\n\n\n        // filme.exibeFichaTecnica();\n        filme.avalia(9);\n        filme.avalia(7);\n        filme.avalia(9);\n        System.out.println(\"######### Ficha técnica do filme ############\");\n        System.out.println(\"O total de avaliacoes foi: \" + decimalFormat.format(filme.getTotalAvaliacoes()));\n        System.out.println(\"A média das avaliacoes foi: \" + decimalFormat.format(filme.pegaMedia()));\n        System.out.println(\"empo de duracao da filme: \" + filme.getDuracaoEmMinutos());\n        System.out.println(\"Está incluso no plano: \" + filme.isIncluidoNoPlano());\n        System.out.println(\"#############################################\");\n\n\n        lost.setNome(\"Lost\");\n        lost.setAnoDoLancamento(2002);\n        lost.setTemporadas(10);\n        lost.setEpisodioPorTemporada(10);\n        lost.setIncluidoNoPlano(true);\n        lost.setMinutosPorEpisodio(50);\n\n        lost.avalia(8);\n        lost.avalia(7);\n        lost.avalia(5);\n\n        System.out.println(\"######### Ficha técnica da lost ############\");\n        System.out.println(\"#############################################\");\n        System.out.println(\"O total de avaliacoes foi: \" + decimalFormat.format(lost.getTotalAvaliacoes()));\n        System.out.println(\"A média das avaliacoes foi: \" + decimalFormat.format(lost.pegaMedia()));\n        System.out.println(\"Tempo de duracao da série: \" +lost.getDuracaoEmMinutos());\n        System.out.println(\"Está incluso no plano: \" +lost.isIncluidoNoPlano());\n\n        CalculadoraDeTempo calculadoraDeTempo = new CalculadoraDeTempo();\n        calculadoraDeTempo.inclui(filme);\n        calculadoraDeTempo.inclui(lost);\n        calculadoraDeTempo.inclui(outroFilme);\n        calculadoraDeTempo.conversaoMinutosParaHora();\n        System.out.println(\"############### \" +calculadoraDeTempo.getTempoTotal());\n        System.out.println(\"############### \" +decimalFormat.format(calculadoraDeTempo.getTempoTotalTest()));\n\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/screenmatch/principal/Principal.java b/src/br/com/screenmatch/principal/Principal.java
+--- a/src/br/com/screenmatch/principal/Principal.java	(revision 85532c65a15ae53a7ce80aecc5c57d8270738cf7)
++++ b/src/br/com/screenmatch/principal/Principal.java	(date 1689079369990)
+@@ -7,7 +7,6 @@
+ import java.text.DecimalFormat;
+ import java.text.SimpleDateFormat;
+ import java.util.Date;
+-import java.util.concurrent.TimeUnit;
+ 
+ public class Principal {
+ 
+Index: src/br/com/screenmatch/modelos/Episodio.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/br/com/screenmatch/modelos/Episodio.java b/src/br/com/screenmatch/modelos/Episodio.java
+new file mode 100644
+--- /dev/null	(date 1689079369992)
++++ b/src/br/com/screenmatch/modelos/Episodio.java	(date 1689079369992)
+@@ -0,0 +1,32 @@
++package br.com.screenmatch.modelos;
++
++public class Episodio {
++
++    private int numero;
++    private String nome;
++    private Serie serie;
++
++    public int getNumero() {
++        return numero;
++    }
++
++    public void setNumero(int numero) {
++        this.numero = numero;
++    }
++
++    public String getNome() {
++        return nome;
++    }
++
++    public void setNome(String nome) {
++        this.nome = nome;
++    }
++
++    public Serie getSerie() {
++        return serie;
++    }
++
++    public void setSerie(Serie serie) {
++        this.serie = serie;
++    }
++}
