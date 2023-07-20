@@ -7,9 +7,7 @@ import br.com.screenmatch.modelos.Serie;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.time.LocalTime;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 public class Principal {
 
