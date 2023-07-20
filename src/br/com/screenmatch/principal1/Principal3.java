@@ -1,6 +1,6 @@
-package br.com.screenmatch.principal;
+package br.com.screenmatch.principal1;
 
-import br.com.screenmatch.entity.Filme3;
+import br.com.screenmatch.entity1.Filme3;
 
 import java.text.DecimalFormat;
 import java.time.format.DateTimeFormatter;
@@ -13,7 +13,7 @@ public class Principal3 {
         DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd/MM/YYYY");
         Filme3 filme3 = new Filme3();
         filme3.setNome("Top Gun");
-        filme3.setAnoDoLancamento(1900);
+        filme3.setAnoDoLancamento(2000);
         filme3.setDuracaoEmMinutos(180);
 
 
@@ -28,11 +28,5 @@ public class Principal3 {
         System.out.println(filme3.toString());
 
 
-//        System.out.println("Soma das avaliacoes do filme " + (filme3.getSomaDasAvaliacoes()));
-//        System.out.println("Média das avaliacoes do filme " + (filme3.pegaMedia()));
-//        System.out.println("fafssfad " + filme3.pegaIdade());
-        System.out.println("fafssfad " + filme3.getIdade());
-//        System.out.println(filme3.informaLancamento());
-//        System.out.println(filme3.totalAvalicao());
     }
 }
