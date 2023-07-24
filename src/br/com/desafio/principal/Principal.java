@@ -3,6 +3,7 @@ package br.com.desafio.principal;
 import br.com.desafio.entity.MinhasPreferidas;
 import br.com.desafio.entity.Musica;
 import br.com.desafio.entity.Podcast;
+import br.com.screenmatch.modelos.Filme;
 
 public class Principal {
     public static void main(String[] args) {
@@ -32,5 +33,7 @@ public class Principal {
 
         minhasPreferidas.inclui(podcast);
         minhasPreferidas.inclui(musica);
+
+
     }
 }
