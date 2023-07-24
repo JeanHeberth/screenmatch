@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Criando a regra do negócio.">
-      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/entity/MinhasPreferidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/entity/Musica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/entity/Podcast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/principal/Principal.java" afterDir="false" />
+    <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="implementando o desafio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690208369902</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implementando o desafio">
+      <option name="closed" value="true" />
+      <created>1690223228268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690223228268</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Criando a regra do negócio." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando a regra do negócio." />
+    <MESSAGE value="implementando o desafio" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementando o desafio" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
