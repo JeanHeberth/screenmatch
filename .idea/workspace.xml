@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="127451e1-050a-46e3-979a-593ef63021b7" name="Changes" comment="Criando a regra do negócio.">
-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc89836f5af1416f307300d09e316c53d70656fb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/entity/MinhasPreferidas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/entity/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/entity/Podcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/desafio/principal/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/entity/Filme2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/screenmatch/principal/Principal2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +63,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.screenmatch.principal" />
       <recent name="br.com.screenmatch.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.br.com.desafio.principal.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.screenmatch.principal.Principal" />
       <module name="screenmatch" />
@@ -117,8 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="br.com.desafio.principal.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.desafio.principal.Principal" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.desafio.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.com.desafio.principal.Principal" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Principal3" />
         <item itemvalue="Application.Principal2" />
@@ -173,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1686588680691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Criando a regra do negócio.">
+      <option name="closed" value="true" />
+      <created>1690208369902</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690208369902</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
