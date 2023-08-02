@@ -1,0 +1,91 @@
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n�\u0001\nY.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2023_13_49_[Changes]/shelved.patch\u0012,8\\3\\83ebf24ee99d1bd44f0d5208bdddcb9f2a466a63\n?\n\u000Fscreenmatch.iml\u0012,0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+--- a/.idea/sonarlint/issuestore/index.pb	
++++ b/.idea/sonarlint/issuestore/index.pb	
+@@ -2,4 +2,32 @@
+ �
+ Y.idea/shelf/Uncommitted_changes_before_Update_at_12_06_2023_13_49_[Changes]/shelved.patch,8\3\83ebf24ee99d1bd44f0d5208bdddcb9f2a466a63
+ ?
+-screenmatch.iml,0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5
+\ No newline at end of file
++screenmatch.iml,0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5
++�
++W.idea/shelf/Uncommitted_changes_before_Update_at_11_07_23_14_19_[Changes]/shelved.patch,c/f/cf6b6de6cc268214cdda39b282725aa65969f771
++�
++Q.idea/sonarlint/securityhotspotstore/0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5,b/7/b78444652fc0b782c1e00877e6a625c58937485d
++�
++Y.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_42_[Changes]/shelved.patch,9/2/92a4fd916fc2a29784543e07d2043272929aa8b7
++�
++Y.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_44_[Changes]/shelved.patch,b/8/b86788f4c7fd838f061e239e121f179915e2ff2c
++}
++M.idea/shelf/Uncommitted_changes_before_Update_at_11_07_23_14_19__Changes_.xml,5/0/5060e7f91ceea12253f5d990a577686bab066978
++w
++G.idea/sonarlint/issuestore/0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5,3/5/358f68e105a99af487dee068440e5f0d27a437ae
++
++O.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_44__Changes_.xml,e/c/ecbd2ca41aaa17a4c4163a72cb3487596226d59d
++r
++B.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml,8/9/896d99c9be6880ce3a634a53b84adc43670df237
++
++O.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_42__Changes_.xml,7/c/7c30c930857c8994d5bff26dd30caaafc8d8bb8c
++Z
++*src/br/com/screenmatch/modelos/Titulo.java,a/3/a3571b84c495d5d2e982b082ea7b13aa22208c40
++S
++#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
++]
++-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
++d
++4src/br/com/screenmatch/principal/PrincipalTeste.java,d/7/d7690b9047fd7fb5d2350c9c5e510fc7b0417136
++_
++/src/br/com/screenmatch/principal/Principal.java,b/3/b384b15eb06f47013b23a5639f6cb3a7b3ada50d
+\ No newline at end of file
+Index: .idea/sonarlint/securityhotspotstore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n?\n\u000Fscreenmatch.iml\u0012,0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/securityhotspotstore/index.pb b/.idea/sonarlint/securityhotspotstore/index.pb
+--- a/.idea/sonarlint/securityhotspotstore/index.pb	
++++ b/.idea/sonarlint/securityhotspotstore/index.pb	
+@@ -1,3 +1,31 @@
+ 
+ ?
+-screenmatch.iml,0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5
+\ No newline at end of file
++screenmatch.iml,0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5
++�
++W.idea/shelf/Uncommitted_changes_before_Update_at_11_07_23_14_19_[Changes]/shelved.patch,c/f/cf6b6de6cc268214cdda39b282725aa65969f771
++�
++Q.idea/sonarlint/securityhotspotstore/0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5,b/7/b78444652fc0b782c1e00877e6a625c58937485d
++�
++Y.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_42_[Changes]/shelved.patch,9/2/92a4fd916fc2a29784543e07d2043272929aa8b7
++�
++Y.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_44_[Changes]/shelved.patch,b/8/b86788f4c7fd838f061e239e121f179915e2ff2c
++}
++M.idea/shelf/Uncommitted_changes_before_Update_at_11_07_23_14_19__Changes_.xml,5/0/5060e7f91ceea12253f5d990a577686bab066978
++w
++G.idea/sonarlint/issuestore/0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5,3/5/358f68e105a99af487dee068440e5f0d27a437ae
++
++O.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_44__Changes_.xml,e/c/ecbd2ca41aaa17a4c4163a72cb3487596226d59d
++r
++B.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml,8/9/896d99c9be6880ce3a634a53b84adc43670df237
++
++O.idea/shelf/Uncommitted_changes_before_Checkout_at_11_07_23_09_42__Changes_.xml,7/c/7c30c930857c8994d5bff26dd30caaafc8d8bb8c
++Z
++*src/br/com/screenmatch/modelos/Titulo.java,a/3/a3571b84c495d5d2e982b082ea7b13aa22208c40
++S
++#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
++]
++-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
++d
++4src/br/com/screenmatch/principal/PrincipalTeste.java,d/7/d7690b9047fd7fb5d2350c9c5e510fc7b0417136
++_
++/src/br/com/screenmatch/principal/Principal.java,b/3/b384b15eb06f47013b23a5639f6cb3a7b3ada50d
+\ No newline at end of file
