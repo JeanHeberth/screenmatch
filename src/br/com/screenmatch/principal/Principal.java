@@ -17,9 +17,9 @@ public class Principal {
         Date date = new Date();
         String hora = new SimpleDateFormat("HH.mm.ss").format(date);
 
-        Filme filme = new Filme();
-        Filme outroFilme = new Filme();
-        Serie lost = new Serie();
+        Filme filme = new Filme("Top gun Maverick", 2000);
+        Filme outroFilme = new Filme("Top gun Maverick outro filme", 2021);
+        Serie lost = new Serie("Lost", 2009);
 
 
         outroFilme.setNome("Top gun Maverick");

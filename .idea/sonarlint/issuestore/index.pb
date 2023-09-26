@@ -1,14 +1,10 @@
 
-_
-/src/br/com/screenmatch/principal/Principal.java,b/3/b384b15eb06f47013b23a5639f6cb3a7b3ada50d
 g
 7src/br/com/screenmatch/calculos/FiltroRecomendacao.java,f/f/ff8071d0092661055fab93a671c3db3ba1e4afa9
 g
 7src/br/com/screenmatch/calculos/CalculadoraDeTempo.java,6/5/6514642270570feb9f0d473e569adc014429d332
 \
 ,src/br/com/screenmatch/modelos/Episodio.java,7/d/7d351b1d1e7095f36db46ca308540e265360cd01
-Y
-)src/br/com/screenmatch/modelos/Serie.java,0/5/051fec8a8c07a1e399bd9c0fb0b2a59d2bde7cc0
 ‡
 W.idea/shelf/Uncommitted_changes_before_Update_at_02_08_23_11_27_[Changes]/shelved.patch,d/5/d58152f69c400a21fb60e9d9724baaeae8355947
 }
@@ -17,3 +13,21 @@ M.idea/shelf/Uncommitted_changes_before_Update_at_02_08_23_11_27__Changes_.xml,
 X.idea/shelf/Uncommitted_changes_before_Update_at_02_08_23_11_27_[Changes]1/shelved.patch,f/c/fce392e998d64f1b144e3a65c56b305bfca0fe5c
 Z
 *src/br/com/screenmatch/modelos/Titulo.java,a/3/a3571b84c495d5d2e982b082ea7b13aa22208c40
+[
++src/br/com/desafio/principal/Principal.java,c/7/c748d39a5d9c1631670ab553ca17671ca8195154
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+?
+screenmatch.iml,0/f/0f37cb756bbcdc4a3493dff4cdd9fc81b30de6f5
+S
+#src/br/com/screenmatch/Produto.java,9/e/9e24d15c8ba8c231e0450816c51543a9fd900fa6
+_
+/src/br/com/screenmatch/principal/Principal.java,b/3/b384b15eb06f47013b23a5639f6cb3a7b3ada50d
+Y
+)src/br/com/screenmatch/modelos/Serie.java,0/5/051fec8a8c07a1e399bd9c0fb0b2a59d2bde7cc0
+Z
+*src/br/com/listas/principal/Principal.java,f/1/f16dd622a69786818e05d8df4e29f22f04609a76
+`
+0src/br/com/listas/principal/DesafioProdutos.java,9/e/9e62c457806d6b317785def73c4c75af0247b61b
