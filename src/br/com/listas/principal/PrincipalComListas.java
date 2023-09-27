@@ -5,6 +5,9 @@ import br.com.screenmatch.modelos.Serie;
 import br.com.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class PrincipalComListas {
 
@@ -13,15 +16,15 @@ public class PrincipalComListas {
         outroFilme.avalia(8);
         Filme filmeDoJean = new Filme("Testes", 2022);
         filmeDoJean.avalia(5);
-        Filme filme = new Filme("Top gun Maverick", 2022);
+        Filme filme = new Filme("Top gun Maverick", 2000);
         filme.avalia(7);
-        Serie lost = new Serie("Lost", 2002);
+        Serie lost = new Serie("Lost", 1995);
 
 //        Filme f1 = filmeDoJean;
 
 //        System.out.println(f1);
 
-        ArrayList<Titulo> listaFilmesAssistidos = new ArrayList<>();
+        List<Titulo> listaFilmesAssistidos = new ArrayList<>();
 
         listaFilmesAssistidos.add(filme);
         listaFilmesAssistidos.add(outroFilme);
@@ -34,5 +37,20 @@ public class PrincipalComListas {
                 System.out.println(filme1.getClassificacao());
             }
         }
+
+         List<String> buscaPorNome = new ArrayList<>();
+        buscaPorNome.add("Zenão");
+        buscaPorNome.add("Washington");
+        buscaPorNome.add("America");
+        buscaPorNome.add("Jean");
+
+        System.out.println("Antes da ordenação: " +buscaPorNome);
+        Collections.sort(buscaPorNome);
+        System.out.println("Depois da ordenação: " +buscaPorNome);
+
+        Collections.sort(listaFilmesAssistidos);
+        System.out.println(listaFilmesAssistidos);
+        listaFilmesAssistidos.sort(Comparator.comparing(Titulo::getAnoDoLancamento));
+        System.out.println("Por ano: " +listaFilmesAssistidos);
     }
 }
